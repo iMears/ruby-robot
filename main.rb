@@ -25,7 +25,7 @@ class Norton
   def right(angle)
     @norton.servo_write 12, 1700
     @norton.servo_write 13, 1700
-    sleep 0.69 * angle / 90
+    sleep 0.74 * angle / 90
     @norton.servo_write 12, 1500
     @norton.servo_write 13, 1500
   end
@@ -33,7 +33,7 @@ class Norton
   def left(angle)
     @norton.servo_write 12, 1300
     @norton.servo_write 13, 1300
-    sleep 0.69 * angle / 90
+    sleep 0.74 * angle / 90
     @norton.servo_write 12, 1500
     @norton.servo_write 13, 1500
   end
